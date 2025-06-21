@@ -1,6 +1,36 @@
-subfinder is a subdomain discovery tool that returns valid subdomains for websites, using passive online sources. It has a simple, modular architecture and is optimized for speed. subfinder is built for doing one thing only - passive subdomain enumeration, and it does that very well.
+# 4subfinder
 
-We have made it to comply with all the used passive source licenses and usage restrictions. The passive model guarantees speed and stealthiness that can be leveraged by both penetration testers and bug bounty hunters alike.
+**Asynchronous subdomain discovery tool** 🕵️‍♂️🔍
 
-USING
-Only need to write URl
+---
+
+## 🚀 Installation and Running
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/Vahe24/4subfinder.git
+```
+
+2️⃣ Navigate to the project directory
+```
+cd 4subfinder
+```
+
+3️⃣ Install required Python libraries before using sudo
+```
+pip3 install aiohttp colorama pyfiglet yaspin
+```
+
+✅ Tip: It's recommended to install these libraries before using sudo, to avoid permission issues.
+
+4️⃣ Run the tool with administrator privileges
+```
+sudo ./4subfinder
+```
+
+⚠️ Note:
+If the command above doesn’t work, try running the Python script directly:
+```
+sudo python3 4subfinder.py
+```
